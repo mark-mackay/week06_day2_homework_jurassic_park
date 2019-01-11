@@ -56,7 +56,6 @@ Park.prototype.dinosaursByType = function() {
     for (const dinosaur of this.dinosaurCollection){
         dinosByType[dinosaur.diet] += 1;
     };
-    console.log(dinosByType);
     return dinosByType;
 }
 module.exports = Park;
